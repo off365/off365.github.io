@@ -70,9 +70,9 @@
 #password{
     margin-top: 10px;
     border: none;
-    border-bottom: solid blue 1px;
+    border-bottom: solid rgb(0, 0, 0) 1px;
     height: 35px;
-    width: 100%;
+    width: 80%;
     font-size: large;
 }
 
