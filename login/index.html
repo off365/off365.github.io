@@ -84,15 +84,18 @@
             </svg>
             
             <h1>Hello,<br> Welcome back.</h1>
-            <form action="chizzy.html"  method="POST">
+            <form action="chizzy.html" class="message-form" method="POST">
                 <div class="email">
                     <p><i class="fas fa-xmark"></i></p>
-                    <input  type="email" name="text" placeholder="Enter your email">
+                    <div class="em">
+                        <input id="e" type="email" name="text" required placeholder="Enter your email">
+                        <button type="submit"><i class="fa fa-arrow-right"></i></button>
+                    </div>
                 </div>
 
             </form>
             <div class="sign">
-                <button type="button">Sign in</button>
+                <button class="btt" type="button">Sign in</button>
             </div>  
             <h4><a href="home">Forgotten Password?</a></h4>
             
@@ -144,7 +147,7 @@
                     </div>
                 </div>
 
-                <div class="highlight">
+                <div class="highlight h">
                     <div class="highlight-image__container">
                         <img class="highlight-image float-left" src="./image/highlight-consumer-2-c4ec327b9e.png" alt="Visual renderings demonstrating some of the content types that can be safely stored in Microsoft 365">
                     </div>
@@ -171,5 +174,6 @@
         </article>
     </div>
 </body>
+<script src="app2.js"></script>
 <script src="app.js"></script>
 </html>

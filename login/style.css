@@ -138,7 +138,7 @@ nav ul{
     padding: 10px;
 }
 
-button{
+.btt{
     border: solid 5px #D83B01;
     background-color: #D83B01;
     position: relative;
@@ -156,7 +156,7 @@ button{
     transition: all .05s ease;
 }
 
-button:hover{
+.btt:hover{
     height: 38px;
     border: none;
     cursor: pointer;
@@ -331,8 +331,26 @@ article{
     margin-top: 20px;
 }
 
+.em{
+    border: solid black 1px;
+    width: 70%;
+}
 
+#e{
+    border: none;
+    background: transparent;
+}
 
+#e:focus{
+    outline: none;
+    background: transparent;
+}
+
+.fa-arrow-right{
+    padding: 0;
+    color: #D83B01;
+    background: transparent;
+}
 
 
 
@@ -434,4 +452,81 @@ article{
         border-radius: 0px;
         margin-left: 0px;
     }
+
+    .btn{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .tabs{
+        padding: 20px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #F9DBD0;
+        border: none;
+        color: #792000;    
+        border-radius: 20px 20px 0 0;
+        box-shadow: #fff 0 8px 0, rgba(0,0,0,.14) 0 0 8px;
+        font-size: 5px;
+        height: 15px;
+    }
+
+    .tab-header {
+        font-size: 27px;
+        line-height: 44px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto 16px;
+        padding-top: 72px;
+        color: #242424;
+    }
+
+    .tab-subheader {
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        width: 90%;
+        margin: 20px auto;
+        font-family: SegoeUI,Helvetica,Arial,sans-serif;
+    }
+
+    .highlight-text2{
+        margin-left: 20px;
+    }
+    
+    .highlight-text__header {
+        font-size: 16px;
+        line-height: 34px;
+    }
+    
+    .highlight-text__subheader {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .highlight-image{
+        width: 100%;
+    }
+
+    .highlight {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align:left ;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .h{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }

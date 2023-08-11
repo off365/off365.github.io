@@ -20,3 +20,13 @@ bars.addEventListener("click",function(){
         links.classList.add("drop")
     }
 })
+
+const add = document.querySelector(".fa-arrow-right")
+add.addEventListener("click",function(){
+    const mail = document.querySelector("#e")
+    console.log(mail.value)
+    localStorage.setItem("inputValue",mail.value)
+})
+
+
+
