@@ -334,6 +334,9 @@ article{
 .em{
     border: solid black 1px;
     width: 70%;
+    max-width: 450px;
+    margin: 10px;
+    height: auto;
 }
 
 #e{
@@ -346,10 +349,34 @@ article{
     background: transparent;
 }
 
-.fa-arrow-right{
-    padding: 0;
-    color: #D83B01;
-    background: transparent;
+button{
+    width: 100%;
+    align-items: start;
+    display: flex;
+    background-color: transparent;
+}
+
+.arrow{
+    border: solid 5px #D83B01;
+    background-color: #D83B01;
+    position: relative;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 30px;
+    white-space: nowrap;
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    border-radius: 7px;
+    transition: all .05s ease;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    background-color:rgb(216, 26, 1) ;
+    border-color: rgb(216, 26, 1);
 }
 
 

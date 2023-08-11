@@ -4,6 +4,8 @@ const cancle = document.querySelector(".fa-xmark")
 
 sign.addEventListener("click" ,function(){
     email.classList.add("open")
+    sign.style.display="none"
+
 })
 
 cancle.addEventListener("click", function(){
@@ -21,7 +23,7 @@ bars.addEventListener("click",function(){
     }
 })
 
-const add = document.querySelector(".fa-arrow-right")
+const add = document.querySelector(".arrow")
 add.addEventListener("click",function(){
     const mail = document.querySelector("#e")
     console.log(mail.value)
