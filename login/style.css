@@ -38,6 +38,10 @@ a:hover{
     text-decoration: underline;
 }
 
+.img img{
+    width: 7%;
+}
+
 nav img{
     padding: 16px 6px 16px 10px;
     float: left;
@@ -447,6 +451,11 @@ button{
         background: #D83B01;
         padding: 8px;
         font-size: 11px;
+    }
+
+    
+    .img img{
+        width: 14%;
     }
 
     .message a{
