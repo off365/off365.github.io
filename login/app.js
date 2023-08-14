@@ -10,6 +10,8 @@ sign.addEventListener("click" ,function(){
 
 cancle.addEventListener("click", function(){
     email.classList.remove("open")
+    sign.style.display="flex"
+
 })
 
 const bars = document.querySelector(".fa-bars");
