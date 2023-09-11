@@ -29,7 +29,7 @@ form{
 }
 
 .phone{
-    height: 92vh;
+    height: auto;
     border: solid 20px black;
     border-radius: 50px;
     border-style: ridge;
